@@ -1,0 +1,129 @@
+/*DOCUMENTO CSS*/
+*{
+    margin: 0px;
+	padding: 0%;
+}
+html{
+	scroll-behavior: smooth;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header{
+    height: 500px;
+	padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	background-color: whitesmoke;
+}
+main{
+	padding-top: 60px;	
+	text-align: center;
+	background-color: #F08519;
+}
+/* MENU */
+nav{
+	height:50px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+    background: linear-gradient(to bottom, #F13F33, #FF3131);
+
+}
+nav ul{
+	list-style: none;
+}
+nav ul li{
+	display:inline-block;
+   
+}
+nav ul li a{
+	padding:12px 120px 12px 120px;
+	text-decoration: none;
+	transition:0.4s;
+	font-weight: 700;
+	border-radius: 0px;
+	margin:0 10px;
+	font-size: 30px; 
+    color: whitesmoke
+}
+nav ul li a:hover{
+	background-color:#FFD44B; 
+	color: #213943; 
+}
+/*cor imagem*/
+#cores{
+	margin: 0px;
+	padding: 0%;
+	text-align: center;
+	display: flex;
+	padding: 20px 20px 20px 20px;
+	align-items: center;
+	justify-content: center;
+	background-color: #EDE6E0;
+}
+
+#cores .imgcor{
+	margin: 0px;
+	padding: 0%;
+	text-align: center;
+	display: flex;
+	padding: 20px 20px 20px 20px;
+	align-items: center;
+}
+/* ANTUNES DIVS*/
+
+#Antunes{
+	background-color: #F13F33;
+	display: flex;
+	
+}
+#Antunes .esquerdoantunes{
+	background-color: #95AFE4;
+	padding: 200px 100px 200px 100px;
+	text-align: center;
+	color: #213943;
+}
+#Antunes .esquerdoantunes h1{
+	padding:20px 10px 20px 10px;
+	font-size: 36px;
+}#Antunes .esquerdoantunes p{
+	padding:20px 10px 20px 10px;
+	font-size: 30px;
+}
+/*LADCO DIREITO*/
+#Antunes .direitoantunes{
+	background-color: #455F76;
+	padding: 200px 100px 200px 100px;
+	margin: 0px;
+	text-align: center;	
+	color: #D9D0C8;
+	font-family:'Glacial Indifference-bold';
+
+}
+#Antunes .direitoantunes  h1{
+	padding:20px 10px 20px 10px;
+	font-size: 36px;	
+}
+#Antunes .direitoantunes  p{
+	padding:20px 10px 20px 10px;
+	font-size: 31.08px;
+}
+/*FINAL IMAGENS*/
+#final{
+	background-color: #213943;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 660px;	
+	width: 100%;	
+}
+#final img{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.fonte1{
+	font-family: 'Glacial Indifference', Courier, monospace;
+}
+
