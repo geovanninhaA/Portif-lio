@@ -1,0 +1,70 @@
+*{
+    padding: 0%;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(15, 14, 12);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: azure;
+    margin: 40px;
+  
+}
+p{
+    font-size: larger;
+}
+body{
+    background-image: url(fundogorjeta.webp);
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: azure;
+}
+#resultado{
+    font-size: 25px;
+    background-color: rgb(15, 14, 12);
+    margin: 20px;
+} 
+label{
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 30px;
+  
+}
+input {
+    margin: 5px;
+    width: 20px;
+}
+#gorjeta{
+    margin: 5px;
+    width: 300px;
+}
+
+button{
+    width: 80px;
+    border-radius: 10%;
+    font-size: 18px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid #733D23;
+    transition: all 0.3s ease;  
+}
+button:hover{
+    background-color: rgb(15, 14, 12);
+    color: white;
+    box-shadow: 2px 2px 2px white;
+    border: 1px solid white;
+    transform: scale(1.1);
+    border-radius: 15%;
+    border: 1px solid white;
+    transform: scale(1.3);
+}

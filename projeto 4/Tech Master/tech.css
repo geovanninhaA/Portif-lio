@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500&display=swap');
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family:'Inter', sans-serif;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:#0c0ce94d;
+}
+.container {
+	width: 90%;
+	height: 80vh;
+	display: flex;
+    justify-content: space-between;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, .212);
+}
+.cl-20 {
+    width: 20%;
+    display: table-row;
+    background-color:#0c0ce94d;
+    justify-content: space-around;
+}
+.cl-30 {
+    width: 30%;
+    display: table-column;
+    background-color: white;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    display: flex;
+    justify-content: baseline;
+    margin-left: 2em;
+    align-items: center;
+}
+
+.login-button {
+	display: flex;
+	margin-left: 80%;
+	margin-bottom: 5%;
+}
+
+.login-button button {
+	border:none;
+	background-color: #6c63ff;
+	padding: 0.4rem 1rem;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.login-button button:hover {
+	background-color: #6b63fff1;
+
+}
+
+.login-button button a {
+	text-decoration: none;
+	font-weight:500;
+	color: #fff;
+}
+.cl-50 {
+    width: 50%;
+    height: 100%;
+    background-color: blanchedalmond;
+
+}
+.cl-20 img {
+    width: 100%;
+    height: 33%;
+    border: 3px solid #0c0ce94d;
+}
+
+.cl-50 img {
+    width: 100%;
+    height: 100%;
+    border: 3px solid #0c0ce94d;
+}

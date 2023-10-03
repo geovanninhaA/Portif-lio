@@ -1,0 +1,156 @@
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+    	<title>CADASTRO</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+    </head>
+  <body>
+<header>  
+</header>
+<main>
+<form>
+ <div class="linha">
+  <div class="boxlinha">
+  <label> NOME </label><br>
+  <input type="text" name="camponome" size="40" class="nome">
+  </div>
+  <div class="boxlinha">
+  <label> SOBRENOME </label><br>
+  <input type="text" name="camposobrenome" size="40" class="sobrenome">
+</div>
+</div>
+
+<div class="linha">
+  <div class="boxlinha">
+    <label>TELEFONE </label><br>
+    <input type="tel" name="campotelefone" class="telefone" placeholder="00-000000000">
+  </div>
+  <div   class="boxlinha">
+    <label> E-MAIL</label><br>
+    <input type="email" name="campoemail"size="40" class="email">
+  </div>
+</div>
+ 
+<div class="linha">
+  <div class="boxlinha">
+  <label>SENHA</label><br>
+  <input type="password" name="camposenha"size="40" class="senha">
+  </div>
+  <div class="boxlinha">
+ <label> CONFIRMAÇÃO DA SENHA</label><br>
+ <input type="password" name="camposenha"size="40" class="senha">
+</div>
+</div>
+</form>
+<div class="linha">
+  <div class="boxlinha">
+    <a href="login.html"><button class="cadastro"> CADASTRO</button></a>
+  </div>
+  <div class="boxlinha">
+  <a href="menu.html"><button class="voltar"> VOLTAR AO MENU</button></a>
+  </div>
+  </div> -->
+  <!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+<style>
+  /* Definições iniciais */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #00B0EB;
+    font-family: Arial, sans-serif;
+    max-height: 100vh;
+  }
+
+  /* Estilizações para a caixa de cadastro */
+  #linha {
+    display: flex;
+    background-color: #f9f9f9;
+    align-items: center;
+    text-align: center;
+    width: 400px;
+    height: 450px;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10% auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Estilizações para o botão de cadastro */
+  button {
+    outline: none;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  /* Estilizações para os campos de entrada */
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+
+  /* Estilizações para os títulos */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  /* Estilizações para os links */
+  a {
+    text-decoration: none;
+  }
+  @media only screen and (min-width: 600px) {
+    #linha {
+    width: 800px;
+    height: 1000px;
+    }
+    body{
+      
+    }
+
+  }
+
+
+</style>
+</head>
+<body>
+  <div id="linha">
+    <h1>Cadastro</h1>
+    <form>
+      <input type="text" placeholder="Nome">
+      <input type="text" placeholder="Sobrenome">
+      <input type="email" placeholder="E-mail">
+      <input type="password" placeholder="Senha">
+      <input type="password" placeholder=" Confirmação Senha">
+
+     
+    </form>
+    <a href="login.html"><button class="cadastro">Cadastrar</button></a>
+  </div>
+</body>
+</html>

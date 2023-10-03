@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe135;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Torna a página ocupar toda a altura da janela do navegador */
+    margin: 0; /* Remove margens padrão do corpo da página */
+}
+
+
+/* Estilo do formulário */
+.Forms {
+    width: 30%; /* Aumentei um pouco a largura */
+    max-width: 400px; /* Limita a largura máxima do formulário */
+    height: auto; /* Ajusta a altura automaticamente com base no conteúdo */
+    background-color: #5728c7;
+    border-radius: 10px; /* Aumentei a curvatura das bordas */
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px; /* Mais espaço superior */
+    color: #fff; /* Cor do texto dentro do formulário */
+}
+
+/* Estilo do container interno */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+}
+
+/* Estilo das etiquetas (labels) */
+label {
+    display: block;
+    margin-bottom: 10px; /* Mais espaço inferior */
+    font-weight: bold; /* Texto em negrito */
+    color: #eeca01; /* Cor personalizada para as etiquetas */
+}
+
+/* Estilo dos campos de entrada (inputs) */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px; /* Mais espaço inferior */
+    border: 1px solid #ccc;
+    border-radius: 5px; /* Aumentei a curvatura das bordas */
+    background-color: #eeca01;
+}
+#data{
+    background-color:#eeca01;
+    font-size: 20px;
+}
+/* Estilo do botão */
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:background-color 0.3s; /* Efeito de transição suave */
+    
+}
+button:hover {
+    background-color: #0056b3;
+}
