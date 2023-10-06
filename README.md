@@ -13,5 +13,5 @@ Web Front-End no Sesi Senai Itapeva.
 ## Tecnologias Utilizadas
 - HTML – CSS - JavaScript
 ## Autor
-- Seu nome
-- Contato: seunome@email.com (opcional)
+- Geovanna Antunes Correa
+- Contato: geovannaantunescorrea@gmail.com 
